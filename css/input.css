@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme{
+    --color-dark-blue: #0f172a;
+    --color-blue-shade: #152032;
+    --color-light-blue: #3b82f6;
+    --color-icon-purple: #a855f7;
+    --color-icon-green: #22c55e;
+    --color-grid-card: #1a2947;
+    --color-white-shade: #f6f6f6;
+    --breakpoint-mob: 320px;
+}

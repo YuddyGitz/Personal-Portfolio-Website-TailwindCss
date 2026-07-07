@@ -1,0 +1,16 @@
+Personal Portfolio
+
+Prompt 1
+Hi Chatgpt, i want to build a personal portfolio in html and tailwind css. I want a professional, 
+beautiful, classy and wow designs. it should be a mobile 1st reponsive design, then adjust to md 
+and lg screens. Firstly give me a sticky menu bar having Home, About Me, Project, contact and a 
+hambuger icon for mobile view.
+
+Prompt 2
+Give me a hero section in html/tw css. Let it have my attached personal picture at the background.
+Apply overlay of blue with opacity so it could be transparent. Add this write up "Welcome To
+Udensi Okechukwu Personal Potfolio"
+Include 2 buttons, View My Project Button and Download Cv Button.
+
+Prompt 3
+Use the attached CV, Create an ATS-Compliant Resume / CV

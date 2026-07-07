@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Udensi Okechukwu</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body{
+font-family:'Inter',sans-serif;
+}
+
+.hero-overlay{
+background:linear-gradient(
+90deg,
+rgba(0,52,120,.88) 0%,
+rgba(0,52,120,.72) 45%,
+rgba(0,52,120,.15) 100%
+);
+}
+</style>
+
+</head>
+<body class="bg-slate-50">
+
+<!-- NAVBAR -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+        <div class="flex items-center justify-between h-20">
+
+            <!-- LOGO -->
+            <div class="flex items-center gap-3">
+
+            <div class="w-12 h-12 rounded-full bg-blue-700 flex items-center justify-center text-white font-bold text-xl"> UD
+            <!-- <img src="./images/D-Logo Cropped.ico" alt="ud Logo" class="w-full h-full "> -->
+            </div>
+
+            <div>
+            <h2 class="font-bold text-blue-900 text-lg leading-tight">
+            UDENSI
+            </h2>
+
+            <p class="text-xs text-gray-600">
+            OKECHUKWU
+            </p>
+        </div>
+
+    </div>
+
+    <!-- DESKTOP MENU -->
+    <nav class="hidden lg:flex items-center gap-8">
+
+    <a href="#" class="font-medium hover:text-blue-700">Home</a>
+
+    <a href="#about" class="font-medium hover:text-blue-700">About</a>
+
+    <a href="#project" class="font-medium hover:text-blue-700">Project</a>
+
+    <a href="#contact" class="font-medium hover:text-blue-700">Contact</a>
+
+    </nav>  
+
+        <div class="flex  gap-3">
+
+        <a href="./programs/login.php"
+        class="hidden md:flex bg-blue-700 hover:bg-blue-800 text-white px-5 py-3 items-center gap-2 rounded-lg font-semibold">
+        <i class="fa-solid fa-arrow-right-from-bracket text-white fold-bold"></i>
+        Login Portal
+        </a>
+
+        <button id="menuBtn" class="lg:hidden">
+        ☰
+        </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MOBILE MENU -->
+<div id="mobileMenu" class="hidden lg:hidden bg-white border-t">
+
+<div class="flex flex-col p-4 gap-4">
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#project">Project</a>
+<a href="#">Contact</a>
+
+<a href="webapp-login.html"
+class="bg-blue-700 text-white text-center py-3 rounded-lg">
+Login Portal
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- HERO SECTION -->
+<section class="relative">
+
+    <div class="h-[550px] md:h-[650px]
+            bg-cover
+            bg-[center_20%]"
+     style="background-image:url('./images/udoffice.png');">
+
+            <div class="absolute inset-0 hero-overlay"></div>
+
+            <div class="relative z-10 max-w-7xl mx-auto px-6 h-full flex items-center">
+
+                <div class="max-w-2xl text-white">
+
+                    <h1 class="text-[1.2rem] md:text-4xl lg:text-6xl font-extrabold leading-tight">
+                        <p>Welcome To </p>
+                        <p>Udensi Okechukwu</p>
+                        <p>Personal Potfolio</p>
+                    </h1>
+
+                    <p class="mt-6 text-lg md:text-2xl text-blue-100 font-semibold">
+                    Full-Stack Web Developer
+                    </p>
+                
+                    <div class="mt-8 flex flex-wrap gap-4">
+
+                        <a href="#services"
+                        class="bg-blue-700 hover:bg-blue-800 hover:border-l-6 hover:border-l-white hover:border-b-4 hover:border-b-white px-8 py-4 rounded-lg font-semibold">
+                        View My Projects
+                        </a>
+
+                        <a href="Udensi_Okechukwu_ATS_Developer_Resume.pdf" download
+                        class="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-white/90 hover:border-l-6 hover:border-l-green-700">
+                        <i class="fa-solid fa-arrow-right-from-bracket text-green-700 fold-bold"></i>
+                        Download CV
+                        </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- QUICK ACTION CARDS -->
+<section class="-mt-8 relative z-20">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex items-center gap-4" >  
+                        <div class="w-10 h-10 rounded-lg bg-yellow-500/50 flex items-center justify-center">
+                         <i class="fa-solid fa-code text-2xl text-blue-500"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">
+                        HTML 5
+                        </h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                    I have learnt HTML-5 Skill for Structure & semantic web building blocks.
+                    </p>
+
+                    <button class="mt-4 self-center-safe bg-blue-700 text-white px-5 py-2 rounded">
+                    View More 
+                    </button>
+                </div>
+
+                
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="flex items-center gap-4" >  
+                        <div class="w-10 h-10 rounded-lg bg-green-500/50 flex items-center justify-center">
+                         <i class="fa-brands fa-github text-2xl text-green-800"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">
+                        GitHub
+                        </h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                    I have learnt GitHub Skill to help in Version control & collaboration workflow.
+                    </p>
+
+                    <button class="mt-4 bg-blue-700 text-white px-5 py-2 rounded">
+                    View More
+                    </button>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg p-6">
+
+                <div class="flex items-center gap-4" >  
+                    <div class="w-10 h-10 rounded-lg bg-orange-500/50 flex items-center justify-center">
+                         <i class="fa-brands fa-tailwind-css text-1xl text-black font-bold">TW</i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900">
+                        Tailwind CSS
+                        </h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">
+                    I have learnt Tailwind Morden CSS Frame work suitable for all screen responsiveness.
+                    </p>
+
+                    <button class="mt-4 bg-blue-700 text-white px-5 py-2 rounded">
+                    View More
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    
+<!-- About Page -->
+<section id="about" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Section Heading -->
+        <div class="text-center mb-14">
+            <h2 class="text-4xl md:text-5xl font-bold text-blue-900">
+                About Me
+            </h2>
+            <p class="mt-4 text-gray-600 text-lg">
+                Passionate about building innovative digital solutions that solve real-world problems.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <!-- Image -->
+            <div class="flex justify-center">
+                <img src="./images/Udblue.jpg"
+                    alt="Udensi Okechukwu"
+                    class="rounded-3xl shadow-2xl w-full max-w-md object-cover hover:scale-105 transition duration-500">
+            </div>
+
+            <!-- About Content -->
+            <div>
+
+                <h3 class="text-3xl font-bold text-blue-900 mb-6">
+                    Hi, I'm Udensi Okechukwu
+                </h3>
+
+                <p class="text-gray-700 leading-8 mb-5">
+                    I am a passionate <span class="font-semibold text-blue-800">Full-Stack Web Developer</span>
+                    with a strong background in software development and business process automation.
+                    I specialize in designing and developing secure, scalable, and user-friendly web applications
+                    using modern technologies including <strong>PHP, MySQL, JavaScript, HTML5, CSS3, Tailwind CSS, Git, and GitHub.</strong>
+                </p>
+
+                <p class="text-gray-700 leading-8 mb-5">
+                    My experience spans the development of enterprise solutions such as
+                    Hospital Management Systems, AI-powered Banking Applications,
+                    Church Management Systems, Alumni Portals, Restaurant Ordering Platforms,
+                    and Inventory & Business Management Systems. I enjoy transforming complex ideas
+                    into intuitive digital experiences that improve efficiency and deliver measurable value.
+                </p>
+
+                <p class="text-gray-700 leading-8 mb-8">
+                    Beyond coding, I have a solid background in Accounting and Business Management,
+                    enabling me to bridge the gap between technology and business needs.
+                    I am committed to continuous learning, clean coding practices, and building
+                    innovative software that makes a positive impact on businesses and society.
+                </p>
+
+                <!-- Quick Stats -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+                    <div class="bg-white rounded-2xl shadow-lg p-5 text-center">
+                        <h4 class="text-3xl font-bold text-blue-700">10+</h4>
+                        <p class="text-gray-600 text-sm mt-2">Projects</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-5 text-center">
+                        <h4 class="text-3xl font-bold text-blue-700">6+</h4>
+                        <p class="text-gray-600 text-sm mt-2">Technologies</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-5 text-center">
+                        <h4 class="text-3xl font-bold text-blue-700">100%</h4>
+                        <p class="text-gray-600 text-sm mt-2">Responsive</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-5 text-center">
+                        <h4 class="text-3xl font-bold text-blue-700">∞</h4>
+                        <p class="text-gray-600 text-sm mt-2">Learning</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="project" class="py-20">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+        <div class="mb-12">
+            <h2 class="text-4xl font-bold text-blue-900">
+            My Projects
+            </h2>
+
+            <p class="text-gray-600 mt-2">
+            Some recent Projects I developed in this program include
+            </p>
+        </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="./images/BankApp.PNG"
+        class="h-56 w-full object-cover">
+
+        <div class="p-6">
+            <h3 class="font-bold text-2xl text-blue-900">
+            Denzix Bank App
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+            Developed an AI-powered digital banking application that modernizes banking through intelligent automation and secure financial services. The platform enables users to manage accounts, transfer funds, pay bills, and track transactions seamlessly. 
+            <br><br>
+            AI features provide personalized financial insights, spending analysis, fraud detection, and virtual customer support. The solution enhances customer experience while improving operational efficiency and supporting smarter financial decision-making.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="./images/MamaPutOnline.PNG"
+        class="h-56 w-full object-cover">
+
+        <div class="p-6">
+            <h3 class="font-bold text-2xl text-blue-900">
+            Mama Put Online
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+            Developed a modern online Nigerian restaurant platform that showcases a wide variety of freshly prepared local delicacies. The application allows customers to browse menus, explore meal categories, place orders, and enjoy a seamless ordering experience. 
+            <br><br>
+            Built with a responsive, user-friendly interface, it promotes authentic homemade cuisine while making food ordering fast, convenient, and accessible across devices.
+            </p>
+        </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="./images/OldSchoolSite.PNG"
+        class="h-56 w-full object-cover">
+
+        <div class="p-6">
+            <h3 class="font-bold text-2xl text-blue-900">
+            Old School Portal
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+            Developed a responsive alumni portal for the Abia State Polytechnic Accountancy Class of 2010 to strengthen communication and lifelong connections among graduates. 
+            <br><br>
+            The platform enables member registration, profile management, announcements, event coordination, networking, and alumni engagement through a secure and user-friendly interface.
+            </p>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-sky-700 text-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Contact Me
+            </h2>
+
+            <p class="mt-4 text-lg text-blue-100 max-w-3xl mx-auto">
+                Have a project in mind, a job opportunity, or simply want to connect?
+                I'd love to hear from you. Let's build something amazing together.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+
+            <!-- Contact Details -->
+            <div class="space-y-8">
+
+                <div>
+                    <h3 class="text-3xl font-bold mb-4">
+                        Let's Talk
+                    </h3>
+
+                    <p class="text-blue-100 leading-8">
+                        I'm currently available for freelance projects,
+                        full-time opportunities, collaborations,
+                        and innovative software development projects.
+                    </p>
+                </div>
+
+                <div class="space-y-5">
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center">
+                            <i class="fa-solid fa-envelope text-2xl text-yellow-300"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold">Email</h4>
+                            <a href="mailto:your@email.com"
+                                class="text-blue-100 hover:text-yellow-300">
+                                okudboss@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center">
+                            <i class="fa-solid fa-phone text-2xl text-green-300"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold">Phone</h4>
+                            <a href="tel:+2348000000000"
+                                class="text-blue-100 hover:text-yellow-300">
+                                +234 7039 5965 09
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center">
+                            <i class="fa-solid fa-location-dot text-2xl text-red-300"></i>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold">Location</h4>
+                            <p class="text-blue-100">
+                                Enugu State, Nigeria
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Social Media -->
+                <div>
+
+                    <h4 class="text-xl font-semibold mb-4">
+                        Connect With Me
+                    </h4>
+
+                    <div class="flex gap-4 flex-wrap">
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white text-blue-800 flex items-center justify-center hover:bg-yellow-300 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white text-blue-800 flex items-center justify-center hover:bg-yellow-300 transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white text-blue-800 flex items-center justify-center hover:bg-yellow-300 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white text-blue-800 flex items-center justify-center hover:bg-yellow-300 transition">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+
+                        <a href="#"
+                            class="w-12 h-12 rounded-full bg-white text-blue-800 flex items-center justify-center hover:bg-yellow-300 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-white rounded-3xl shadow-2xl p-8 text-gray-800">
+
+                <h3 class="text-3xl font-bold text-blue-900 mb-6">
+                    Send Me a Message
+                </h3>
+
+                <form class="space-y-5">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="w-full border rounded-xl px-5 py-4 focus:ring-4 focus:ring-blue-200 outline-none">
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                        class="w-full border rounded-xl px-5 py-4 focus:ring-4 focus:ring-blue-200 outline-none">
+
+                    <input
+                        type="text"
+                        placeholder="Subject"
+                        class="w-full border rounded-xl px-5 py-4 focus:ring-4 focus:ring-blue-200 outline-none">
+
+                    <textarea
+                        rows="6"
+                        placeholder="Write your message..."
+                        class="w-full border rounded-xl px-5 py-4 focus:ring-4 focus:ring-blue-200 outline-none"></textarea>
+
+                    <button
+                        class="w-full bg-gradient-to-r from-blue-800 to-sky-500 text-white py-4 rounded-xl font-bold hover:scale-[1.02] transition cursor-pointer">
+                        <i class="fa-solid fa-paper-plane mr-2"></i>
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-slate-950 text-gray-300 p-4">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+        <p class="text-center text-sm">
+        © 2026 Udensi Okechukwu. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>
