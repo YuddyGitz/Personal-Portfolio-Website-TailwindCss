@@ -13,4 +13,4 @@ Udensi Okechukwu Personal Potfolio"
 Include 2 buttons, View My Project Button and Download Cv Button.
 
 Prompt 3
-Use the attached CV, Create an ATS-Compliant Resume / CV
+Use the attached CV, Create an ATS-Compliant Resume / CV for me.
